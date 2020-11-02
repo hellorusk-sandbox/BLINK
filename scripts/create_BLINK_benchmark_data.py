@@ -248,36 +248,36 @@ store_questions(ace_questions, out_ace_filename)
 print(len(ace_questions))
 
 
-# aquaint
-print("aquaint")
-in_aquaint_filename = "data/train_and_benchmark_data/basic_data/test_datasets/wned-datasets/aquaint/aquaint.conll"
-aquaint_questions = convert_to_BLINK_format(extract_questions(in_aquaint_filename))
-out_aquaint_filename = "data/BLINK_benchmark/aquaint_questions.jsonl"
-store_questions(aquaint_questions, out_aquaint_filename)
-print(len(aquaint_questions))
-
-#  clueweb - WNED-CWEB (CWEB)
-print("clueweb - WNED-CWEB (CWEB)")
-in_clueweb_filename = "data/train_and_benchmark_data/basic_data/test_datasets/wned-datasets/clueweb/clueweb.conll"
-clueweb_questions = convert_to_BLINK_format(extract_questions(in_clueweb_filename))
-out_clueweb_filename = "data/BLINK_benchmark/clueweb_questions.jsonl"
-store_questions(clueweb_questions, out_clueweb_filename)
-print(len(clueweb_questions))
-
-
-# msnbc
-print("msnbc")
-in_msnbc_filename = "data/train_and_benchmark_data/basic_data/test_datasets/wned-datasets/msnbc/msnbc.conll"
-msnbc_questions = convert_to_BLINK_format(extract_questions(in_msnbc_filename))
-out_msnbc_filename = "data/BLINK_benchmark/msnbc_questions.jsonl"
-store_questions(msnbc_questions, out_msnbc_filename)
-print(len(msnbc_questions))
-
-
-# wikipedia - WNED-WIKI (WIKI)
-print("wikipedia - WNED-WIKI (WIKI)")
-in_wnedwiki_filename = "data/train_and_benchmark_data/basic_data/test_datasets/wned-datasets/wikipedia/wikipedia.conll"
-wnedwiki_questions = convert_to_BLINK_format(extract_questions(in_wnedwiki_filename))
-out_wnedwiki_filename = "data/BLINK_benchmark/wnedwiki_questions.jsonl"
-store_questions(wnedwiki_questions, out_wnedwiki_filename)
-print(len(wnedwiki_questions))
+## aquaint
+#print("aquaint")
+#in_aquaint_filename = "data/train_and_benchmark_data/basic_data/test_datasets/wned-datasets/aquaint/aquaint.conll"
+#aquaint_questions = convert_to_BLINK_format(extract_questions(in_aquaint_filename))
+#out_aquaint_filename = "data/BLINK_benchmark/aquaint_questions.jsonl"
+#store_questions(aquaint_questions, out_aquaint_filename)
+#print(len(aquaint_questions))
+#
+##  clueweb - WNED-CWEB (CWEB)
+#print("clueweb - WNED-CWEB (CWEB)")
+#in_clueweb_filename = "data/train_and_benchmark_data/basic_data/test_datasets/wned-datasets/clueweb/clueweb.conll"
+#clueweb_questions = convert_to_BLINK_format(extract_questions(in_clueweb_filename))
+#out_clueweb_filename = "data/BLINK_benchmark/clueweb_questions.jsonl"
+#store_questions(clueweb_questions, out_clueweb_filename)
+#print(len(clueweb_questions))
+#
+#
+## msnbc
+#print("msnbc")
+#in_msnbc_filename = "data/train_and_benchmark_data/basic_data/test_datasets/wned-datasets/msnbc/msnbc.conll"
+#msnbc_questions = convert_to_BLINK_format(extract_questions(in_msnbc_filename))
+#out_msnbc_filename = "data/BLINK_benchmark/msnbc_questions.jsonl"
+#store_questions(msnbc_questions, out_msnbc_filename)
+#print(len(msnbc_questions))
+#
+#
+## wikipedia - WNED-WIKI (WIKI)
+#print("wikipedia - WNED-WIKI (WIKI)")
+#in_wnedwiki_filename = "data/train_and_benchmark_data/basic_data/test_datasets/wned-datasets/wikipedia/wikipedia.conll"
+#wnedwiki_questions = convert_to_BLINK_format(extract_questions(in_wnedwiki_filename))
+#out_wnedwiki_filename = "data/BLINK_benchmark/wnedwiki_questions.jsonl"
+#store_questions(wnedwiki_questions, out_wnedwiki_filename)
+#print(len(wnedwiki_questions))
